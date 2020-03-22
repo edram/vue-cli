@@ -1,4 +1,53 @@
 
+## 4.2.4 (2020-03-22)
+
+#### :rocket: New Features
+* `@vue/cli-service`
+  * [#3886](https://github.com/vuejs/vue-cli/pull/3886) feat: wc entry accepts multiple file patterns splited by ',' ([@manico](https://github.com/manico))
+* `@vue/cli`
+  * [#5212](https://github.com/vuejs/vue-cli/pull/5212) feat(vue-cli): Choosing to save as a preset tells you where it is saved ([@jaireina](https://github.com/jaireina))
+* `@vue/cli-plugin-typescript`
+  * [#5170](https://github.com/vuejs/vue-cli/pull/5170) feat: use @vue/compiler-sfc as a compiler for TS if available ([@cexbrayat](https://github.com/cexbrayat))
+* `@vue/cli-plugin-eslint`, `@vue/cli-service-global`, `@vue/cli-ui-addon-widgets`
+  * [#5241](https://github.com/vuejs/vue-cli/pull/5241) feat: ease the default `no-console` severity to `warn` ([@sodatea](https://github.com/sodatea))
+* `@vue/cli-service`, `@vue/cli-ui-addon-webpack`, `@vue/cli-ui-addon-widgets`, `@vue/cli-ui`
+  * [#5233](https://github.com/vuejs/vue-cli/pull/5233) feat: add "not dead" to the default browserslist query ([@sodatea](https://github.com/sodatea))
+* `@vue/cli-plugin-router`
+  * [#4805](https://github.com/vuejs/vue-cli/pull/4805) types(router): added router array type for Array RouteConfig ([@manuelojeda](https://github.com/manuelojeda))
+
+#### :bug: Bug Fix
+* `@vue/cli-plugin-pwa`
+  * [#5087](https://github.com/vuejs/vue-cli/pull/5087) feat(pwa): Check for null or undefined in iconPaths ([@janispritzkau](https://github.com/janispritzkau))
+* `@vue/cli-plugin-eslint`
+  * [#5242](https://github.com/vuejs/vue-cli/pull/5242) fix: fix severity config in ui ([@sodatea](https://github.com/sodatea))
+* `@vue/cli-shared-utils`
+  * [#5264](https://github.com/vuejs/vue-cli/pull/5264) fix false positive of `hasProjectNpm` ([@sodatea](https://github.com/sodatea))
+* `@vue/babel-preset-app`
+  * [#5236](https://github.com/vuejs/vue-cli/pull/5236) fix(babel-preset-app): avoid corejs warning when useBuiltIns is false ([@LeBenLeBen](https://github.com/LeBenLeBen))
+
+#### :house: Internal
+* `@vue/cli`
+  * [#5228](https://github.com/vuejs/vue-cli/pull/5228) test: e2e test case for command suggestion logic ([@jamesgeorge007](https://github.com/jamesgeorge007))
+  * [#5238](https://github.com/vuejs/vue-cli/pull/5238) Improve package.json not found error  ([@barbeque](https://github.com/barbeque))
+
+#### :hammer: Underlying Tools
+* `@vue/cli-plugin-eslint`
+  * [#5273](https://github.com/vuejs/vue-cli/pull/5273) chore(eslint): bump minimum required eslint-loader version to support ESLint 6 ([@megos](https://github.com/megos))
+
+#### Committers: 10
+- Benoît Burgener ([@LeBenLeBen](https://github.com/LeBenLeBen))
+- Cédric Exbrayat ([@cexbrayat](https://github.com/cexbrayat))
+- Haoqun Jiang ([@sodatea](https://github.com/sodatea))
+- Jadranko Dragoje ([@manico](https://github.com/manico))
+- Jair Reina ([@jaireina](https://github.com/jaireina))
+- James George ([@jamesgeorge007](https://github.com/jamesgeorge007))
+- Janis Pritzkau ([@janispritzkau](https://github.com/janispritzkau))
+- Manuel Ojeda ([@manuelojeda](https://github.com/manuelojeda))
+- Mike ([@barbeque](https://github.com/barbeque))
+- megos ([@megos](https://github.com/megos))
+
+
+
 ## 4.2.3 (2020-02-27)
 
 #### :bug: Bug Fix
